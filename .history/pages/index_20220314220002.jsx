@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Sidebar from '../components/Sidebar'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
@@ -12,7 +11,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <Sidebar />
+        <Sidebar>
+          
+        </Sidebar>
         {/*Feed */}
         {/*Widgets */}
         {/*Modal */}

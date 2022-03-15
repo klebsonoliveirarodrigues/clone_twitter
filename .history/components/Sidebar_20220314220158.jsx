@@ -1,7 +1,7 @@
 function Sidebar() {
   return (
     <div>
-      Sidebar
+      Sid
     </div>
   )
 }
